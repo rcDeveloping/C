@@ -5,7 +5,7 @@ int main(void) {
 	char C;
 	
 	// lu is a short for long unsigned
-	printf("The size of 'char' is: %lu bytes / %lu bits\n", sizeof C, sizeof C * 8);
+	printf("The size of 'char' is: %zu bytes / %zu bits\n", sizeof C, sizeof C * 8);
 	
 	/*** 
 	char can store values from 0 to 255 (2**8) 
